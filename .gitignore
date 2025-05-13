@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# VSCode
+.vscode/
+
+# Environment
+.env
+
+# Output and Result
+output/*
+result/*
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
