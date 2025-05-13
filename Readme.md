@@ -83,3 +83,23 @@ This produces a flat, analysis-ready table with one row per approval, including:
 - Approver info
 
 You can use the result in Looker Studio, Pandas, or Power BI to explore review dynamics, reviewer load, and cross-team interactions.
+
+## 📤 Public Dataset
+This repository powers a public dataset on Kaggle:
+🔗 GitLab Runner Review Map on Kaggle
+https://www.kaggle.com/datasets/tedlozzo/gitlab-runner-author-approver-mapping-insights
+
+It includes:
+- All merged MRs from gitlab-org/gitlab-runner
+- Author and reviewer GitLab usernames
+- Timestamps (merged_at, prepared_at)
+One row per approval
+
+You can use this dataset to:
+- Analyze review patterns
+- Identify contributor silos
+- Visualize reviewer-author relationships using Looker Studio or Python
+
+The dataset was generated using this repository's data collection scripts and SQL transformation logic. 
+
+A companion blog post will provide detailed insights and visualizations. See https://tedlozzo.substack.com/p/who-reviews-whom-mining-gitlab-merge

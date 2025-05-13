@@ -16,8 +16,7 @@ ENV/
 .env
 
 # Output and Result
-output/*
-result/*
+output/*.jsonl
 
 # Logs
 *.log
